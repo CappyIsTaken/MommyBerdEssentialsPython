@@ -87,9 +87,3 @@ def get_video():
     return {
         "videoUrl": video_url
     }
-
-
-    
-
-if __name__ == "__main__":
-    app.run()
