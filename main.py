@@ -3,9 +3,7 @@ import requests
 import re
 from datetime import datetime
 import os
-from dotenv import load_dotenv
 import urllib.parse
-load_dotenv()
 
 twitter_regex = "((https?):\/\/)?(www.)?twitter\.com(\/@?(\w){1,15})\/status\/([0-9]{19})"
 tiktok_regex = r"(?:http(?:s)?:\/\/)?(?:(?:www)\.(?:tiktok\.com)(?:\/)(?!foryou)(@[a-zA-z0-9]+)(?:\/)(?:video)(?:\/)([\d]+)|(?:m)\.(?:tiktok\.com)(?:\/)(?!foryou)(?:v)(?:\/)?(?=([\d]+)\.html))"
